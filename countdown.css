@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron";
+}
+
+#logo {
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.hero {
+    height: 100vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#text2 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Iceland';
+}
+
+.container{
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 60px;
+}
+
+.timebox {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    /* padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px; */
+    /* border: 3px solid white;
+    border-radius: 15px; */
+}
+
+.time {
+    text-align: center;
+}
+
+.time h2 {
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+#link{
+  color: greenyellow;
+  padding: 10px;
+  text-decoration: none;
+  margin: 20px;
+  border: 2px solid greenyellow;
+  border-radius: 5px;
+}
+#link:hover{
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  background-color: #232526;
+  transition: all 0.45s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
